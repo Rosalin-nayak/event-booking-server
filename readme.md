@@ -1,6 +1,6 @@
 # Event Booking API
 
-This is a RESTful API for an Event Booking system built with Node.js, Express, and MongoDB.
+This is a API for an Event Booking system built with Node.js, Express, and MongoDB.
 
 ---
 
@@ -45,8 +45,6 @@ POST /api/auth/register
 
 ### Example login Request
 
-POST /api/auth/register
-```json
 {
   "email": "rosalin@example.com",
   "password": "yourpassword"
