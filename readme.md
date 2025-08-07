@@ -8,9 +8,8 @@ This is a RESTful API for an Event Booking system built with Node.js, Express, a
 
 👉 [https://event-booking-server-1.onrender.com]
 
----
 
-## 📦 API Endpoints
+## API Endpoints
 
 ### Auth Routes
 - POST /api/auth/register – Register a new user  
@@ -29,16 +28,26 @@ This is a RESTful API for an Event Booking system built with Node.js, Express, a
 
 ---
 
-## 🧪 How to Test
+##  How to Test
 
-You can test the API using *Postman* or *cURL*.
+You can test the API using *Postman*
 
 ### Example Register Request
 
 POST /api/auth/register
 ```json
 {
-  "name": "Rosalin",
+  "username": "Rosalin",
+  "email": "rosalin@example.com",
+  "password": "yourpassword",
+  "role":"admin"
+}
+
+### Example login Request
+
+POST /api/auth/register
+```json
+{
   "email": "rosalin@example.com",
   "password": "yourpassword"
 }
